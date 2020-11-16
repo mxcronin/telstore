@@ -68,22 +68,21 @@ export default {
     project-only-end */
     ['@vue-storefront/commercetools/nuxt', {
       api: {
-        uri: 'https://api.commercetools.com/vsf-ct-dev/graphql',
+        uri: 'https://api.commercetools.com/telecom/graphql',
         authHost: 'https://auth.sphere.io',
-        projectKey: 'vsf-ct-dev',
-        clientId: 'RT4iJGDbDzZe4b2E6RyeNe9s',
-        clientSecret: '5eBt3yfZJWw1j7V6kXjfKXpuFP-YQXpg',
+        projectKey: 'telecom',
+        clientId: 'ZX1MFRRczSGpbJFOGut_kC-q',
+        clientSecret: 'DBW8Y1qU0C3n2c9uqz_ZGcSbKFkHlJ_e',
         scopes: [
-          'manage_products:vsf-ct-dev',
-          'create_anonymous_token:vsf-ct-dev',
-          'manage_my_profile:vsf-ct-dev',
-          'manage_customer_groups:vsf-ct-dev',
-          'view_categories:vsf-ct-dev',
-          'introspect_oauth_tokens:vsf-ct-dev',
-          'manage_my_payments:vsf-ct-dev',
-          'manage_my_orders:vsf-ct-dev',
-          'manage_my_shopping_lists:vsf-ct-dev',
-          'view_published_products:vsf-ct-dev'
+          'manage_my_shopping_lists:telecom',
+          'view_published_products:telecom',
+          'manage_my_orders:telecom',
+          'manage_my_payments:telecom',
+          'view_products:telecom',
+          'introspect_oauth_tokens:telecom',
+          'create_anonymous_token:telecom',
+          'manage_my_profile:telecom',
+          'view_categories:telecom'
         ]
       },
       i18n: {
